@@ -1,5 +1,7 @@
 package com.examplecom.dio.santander.bankline.api.model;
 
-public class movimentacaoTipo {
+public enum movimentacaoTipo {
+	receita,
+	despesa
 
 }
