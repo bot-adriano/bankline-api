@@ -1,6 +1,7 @@
 package com.examplecom.dio.santander.bankline.api.model;
+import java.time.LocalDateTime;
 
-public class movimentacao {
+public class Movimentacao {
 	private Integer id;
 	private LocalDateTime dataHora;
 	private String descricao;
